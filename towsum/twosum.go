@@ -5,9 +5,9 @@ import (
 )
 
 func twoSum(nums []int, target int) []int {
-	m := make(map[int]int)
-	res := make([]int, 0)
-    for i, v := range nums {
+	m := map[int]int{}
+	res := []int{}
+	for i, v := range nums {
 		dest := target - v
 		if index, ok := m[dest]; ok {
 			res = append(res, index, i)
