@@ -44,6 +44,6 @@ func TestMergeTwoLists(t *testing.T) {
 	l2.Next = l21
 	l21.Next = l22
 
-	res := mergeTwoLists(l1, l2)
+	res := mergeTwoListsV2(l1, l2)
 	printList(res)
 }
