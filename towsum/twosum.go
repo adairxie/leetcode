@@ -20,7 +20,7 @@ func twoSum(nums []int, target int) []int {
 }
 
 func main() {
-	nums := []int{2, 7, -1, 15}
+	nums := []int{2, 7, -1, 15}                                                                                                                                                                                                                                                                                                                                               vc                                                                                          c                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 	target := 6
 
 	res := twoSum(nums, target)
